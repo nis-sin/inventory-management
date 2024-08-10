@@ -1,7 +1,7 @@
 'use client';
 
 import {useState, useEffect} from "react";
-import {firestore} from "../firebase";
+import {firestore} from "/firebase";
 import {Box, Modal, Typography, Stack, TextField, Button} from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import IconButton from '@mui/material/IconButton';
